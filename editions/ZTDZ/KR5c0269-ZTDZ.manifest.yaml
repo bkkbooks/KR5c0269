@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0269/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0269/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君玄妙枕中內德神咒經
+  date: '2015-08-29 00:55:16.523312'
+  source:
+    repository: kanripo
+    path: KR5c0269
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0269_000-ZTDZ.yaml, hash: 'sha256:6a3583ca629ac66cd9543d33a459f30d18e3ad951c772d2ef2fcd33a9adbeac0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0269_000-ZTDZ.markers.yaml, hash: 'sha256:72365be3aab332dc77d8a39768af81e4486d7a42fe6156d595a3559855c4c59f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0269_SJB_000-180705c
+    span:
+    - body
+    - 0
+    - 712
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4a4c667820851a597d9129490af276a1b850a02badb38c91a4afe472c79ec2b7
